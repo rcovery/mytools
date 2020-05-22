@@ -19,6 +19,6 @@ try:
 		else:
 			pass
 except IndexError:
-	print("""\033[32m<-Modo de usar->
+	print("""\033[32m<-How to use->
 \033[1mpython3 BruteShadow.py file\033[m
 """)
