@@ -22,5 +22,6 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 #Downloading brModelo
 wget http://www.sis4.com/brModelo/brModelo.jar
 sudo mv brModelo.jar /opt/
+
 sudo apt-get update
-sudo apt-get install sublime-text kdenlive gimp brave-browser spotify-client
+sudo apt-get install sublime-text kdenlive gimp brave-browser spotify-client openbox tint2 obconf
